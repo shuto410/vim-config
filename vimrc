@@ -39,6 +39,7 @@ set fenc=utf-8
 set nobackup
 set noswapfile
 set autoread
+set smartindent
 set showcmd
 set virtualedit=onemore
 nnoremap j gj
@@ -57,10 +58,22 @@ set cursorline
 
 
 inoremap <silent> jj <Esc>
-nnoremap <silent><C-e> :NERDTreeToggle<CR>
+nnoremap <silent><C-t> :NERDTreeToggle<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+inoremap <C-e> <Esc>$<Right>
+inoremap <C-a> <Esc>^
+noremap <C-e> <Esc>$<Right>
+noremap <C-a> <Esc>^
+inoremap {<Enter> {}<Left><CR><BS><BS><BS><BS><CR><Up><Tab>
+inoremap [<Enter> []<Left>
+inoremap (<Enter> ()<Left>
+inoremap "<Enter> ""<Left>
+inoremap '<Enter> ''<Left>
+noremap x "_x
+
+
 
 colorscheme codedark
