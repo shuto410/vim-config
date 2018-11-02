@@ -35,6 +35,15 @@ endif
 
 set number
 syntax on
+set fenc=utf-8
+set nobackup
+set noswapfile
+set autoread
+set showcmd
+set virtualedit=onemore
+nnoremap j gj
+nnoremap k gk
+
 
 inoremap jj <Esc>
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
