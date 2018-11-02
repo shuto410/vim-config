@@ -56,7 +56,11 @@ set cursorline
 
 
 
-inoremap jj <Esc>
+inoremap <silent> jj <Esc>
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 colorscheme codedark
