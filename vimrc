@@ -55,6 +55,10 @@ set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 set cursorline
 
+let _curfile=expand("%:r")
+if _curfile == 'Makefile'
+  set noexpandtab
+endif
 
 
 inoremap <silent> jj <Esc>
