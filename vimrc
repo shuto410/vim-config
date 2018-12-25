@@ -54,6 +54,8 @@ set wrapscan
 set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 set cursorline
+set nocompatible
+set whichwrap=b,s,h,l,<,>,[,]
 
 let _curfile=expand("%:r")
 if _curfile == 'Makefile'
@@ -91,6 +93,7 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
+
 
 set backspace=indent,eol,start
 
