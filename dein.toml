@@ -6,3 +6,6 @@ repo = 'tomasiser/vim-code-dark'
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
