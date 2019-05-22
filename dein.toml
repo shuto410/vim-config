@@ -9,3 +9,6 @@ repo = 'scrooloose/nerdtree'
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
+repo = 'simeji/winresizer'

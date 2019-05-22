@@ -92,6 +92,9 @@ inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 
+nnoremap u g-
+nnoremap <C-r> g+
+
 set backspace=indent,eol,start
 
 colorscheme codedark
