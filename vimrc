@@ -122,8 +122,8 @@ inoremap <silent> jj <Esc>
 nnoremap <silent><C-t> :NERDTreeToggle<CR>
 inoremap <C-e> <Esc>$<Right>
 inoremap <C-a> <Esc>^
-noremap <C-e> <Esc>$<Right>
-noremap <C-a> <Esc>^
+noremap <C-e> $<Right>
+noremap <C-a> ^
 inoremap {<Enter> {}<Left><CR><BS><BS><BS><BS><CR><Up><Tab>
 inoremap [<Enter> []<Left>
 inoremap (<Enter> ()<Left>
@@ -156,4 +156,4 @@ set backspace=indent,eol,start
 
 colorscheme codedark
 
-
+let g:winresizer_start_key = '<C-x>'
