@@ -156,5 +156,5 @@ set backspace=indent,eol,start
 
 colorscheme codedark
 
-tnoremap <C-Q> <C-W>N
+tnoremap <C-q> <C-w>N
 let g:winresizer_start_key = '<C-x>'
