@@ -125,10 +125,10 @@ inoremap <C-a> <Esc>^
 noremap <C-e> $<Right>
 noremap <C-a> ^
 inoremap {<Enter> {}<Left><CR><BS><BS><BS><BS><CR><Up><Space><Space><Space><Space>
-inoremap [ []<Left>
-inoremap ( ()<Left>
-inoremap " ""<Left>
-inoremap ' ''<Left>
+" inoremap [ []<Left>
+" inoremap ( ()<Left>
+" inoremap " ""<Left>
+" inoremap ' ''<Left>
 noremap x "_x
 
 inoremap <silent> っj <ESC>

@@ -12,3 +12,6 @@ repo = 'Shougo/neocomplete.vim'
 
 [[plugins]]
 repo = 'simeji/winresizer'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
