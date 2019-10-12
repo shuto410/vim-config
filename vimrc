@@ -118,7 +118,8 @@ if _curfile == 'Makefile'
 endif
 
 
-inoremap <silent> jj <Esc>
+inoremap <Esc> <Esc><Right>
+inoremap <silent> jj <Esc><Right>
 nnoremap <silent><C-t> :NERDTreeToggle<CR>
 inoremap <C-e> <Esc>$<Right>
 inoremap <C-a> <Esc>^
@@ -149,6 +150,17 @@ inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 
+inoremap <C-n> <Down>
+inoremap <C-p> <Up>
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
+nnoremap <C-n> <Down>
+nnoremap <C-p> <Up>
+nnoremap <C-b> <Left>
+nnoremap <C-f> <Right>
+
+
+
 nnoremap u g-
 nnoremap <C-r> g+
 
@@ -158,3 +170,5 @@ colorscheme codedark
 
 tnoremap <C-q> <C-w>N
 let g:winresizer_start_key = '<C-x>'
+
+let g:user_emmet_leader_key='<C-o>'
