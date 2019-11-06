@@ -123,7 +123,7 @@ inoremap <silent> jj <Esc><Right>
 nnoremap <silent><C-t> :NERDTreeToggle<CR>
 inoremap <C-e> <Esc>$<Right>
 inoremap <C-a> <Esc>^
-noremap <C-e> $<Right>
+noremap <C-e> $
 noremap <C-a> ^
 noremap x "_x
 
@@ -143,21 +143,19 @@ nnoremap <C-k> <Up>
 nnoremap <C-h> <Left>
 nnoremap <C-l> <Right>
 
-inoremap <C-j> <Down>
-inoremap <C-k> <Up>
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
+inoremap <C-h> <BS>
 
 inoremap <C-n> <Down>
 inoremap <C-p> <Up>
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
+
 nnoremap <C-n> <Down>
 nnoremap <C-p> <Up>
 nnoremap <C-b> <Left>
 nnoremap <C-f> <Right>
 
-
+nnoremap <C-m>  :GundoToggle<CR>
 
 nnoremap u g-
 nnoremap <C-r> g+
